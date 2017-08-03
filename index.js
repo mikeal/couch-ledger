@@ -1,4 +1,4 @@
-const AbstractLedger = require('../abstract-ledger').AbstractLedger
+const AbstractLedger = require('abstract-ledger').AbstractLedger
 const couch = require('couch')
 const promisify = require('util').promisify
 
